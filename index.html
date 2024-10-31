@@ -5,7 +5,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Our Spooky Website!</title>
+    <title>Spooky Website</title>
     <link rel="stylesheet" href="output.css">
     <link rel="icon" href="/logo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -103,6 +103,49 @@
 </head>
 
 <body class="font-sans antialiased bg-black text-white" style="font-family: 'Inter', sans-serif;">
+<!-- Header -->
+<div class="w-full max-w-5xl mx-auto px-6">
+    <nav class="w-full py-4 flex flex-row items-center gap-2 sm:gap-8">
+        <a href="index.html" class="flex items-center font-bold tracking-tight">
+            <img src="logo.png" alt="Logo" class='w-12 h-12'>
+            <span class="text-lg text-violet-500 ml-2">Welcome to our Spooky Website!</span>
+        </a>
+
+        <div class='flex-1'></div>
+
+        <a href="#features" class="hidden md:block text-violet-500 font-medium hover:underline underline-offset-2 hover:decoration-violet-500/50">Features</a>
+        <a href="/pricing.html" class="hidden md:block text-violet-500 font-medium hover:underline underline-offset-2 hover:decoration-violet-500/50">Pricing</a>
+        
+        <a href='/pricing.html'>
+            <button class='px-4 py-2 text-fuchsia-400 border border-fuchsia-400 rounded-full hover:bg-fuchsia-400/50 transition hover:shadow-lg hover:shadow-fuchsia-400/20'>
+                Get started
+            </button>
+        </a>
+    </nav>
+</div>
+
+
+
+<!-- Footer Section -->
+<footer class="py-6 text-center bg-black text-white">
+
+
+<div class="flex justify-center space-x-6 mt-6">
+    <a href="quote.html" class="hover:underline text-fuchsia-400">Help</a>
+    <a href="quote.html" class="hover:underline text-fuchsia-400">Contact Us</a>
+</div>
+
+
+
+<div class="flex justify-center space-x-6 mt-6">
+    <a href="#" class="hover:text-fuchsia-400 transition-colors"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="hover:text-fuchsia-400 transition-colors"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="hover:text-fuchsia-400 transition-colors"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="hover:text-fuchsia-400 transition-colors"><i class="fab fa-youtube"></i></a>
+</div>
+</footer>
+</body>
+</body>
 
     
 </html>
